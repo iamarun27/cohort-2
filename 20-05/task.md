@@ -1,0 +1,3 @@
+h1 h6 p b i u sup sub lorem br ol ul li a href target img src alt video autoplay loop muted controls audio iframe
+required height detail summary
+form input text password date placeholder name ...
