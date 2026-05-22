@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* #parent {
+  height: 100%;
+  width: 100%;
+  background-color: goldenrod;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+
+#child1 {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  flex-shrink: 0;
+}
+
+#child2 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(23, 85, 208);
+  flex-shrink: 0;
+}
+
+#child3 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(98, 230, 27);
+  flex-shrink: 0;
+}
+
+#child4 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(139, 15, 234);
+  flex-shrink: 0;
+}
+
+#child5 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(42, 91, 170);
+  flex-shrink: 0;
+} */
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 300px;
+  width: 200px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(11, 179, 170, 0.58);
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.card img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card h2 {
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.card button {
+  border-radius: 30px;
+  padding: 10px 30px;
+  border: none;
+  background-color: royalblue;
+  border: 3px solid royalblue;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+}
+
+.card button:hover {
+  background-color: transparent;
+  color: royalblue;
+}

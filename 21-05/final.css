@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+} */
+/* 
+#box {
+  height: 300px;
+  width: 300px;
+  background-image: url(https://plus.unsplash.com/premium_photo-1739989720275-985a0feba9e6?q=80&w=710&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+/* background-size: cover;
+  background-position: center; */
+/* transform: rotateX(45deg); */
+/* scale: 1.5;
+} */
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: lightseagreen;
+}
+.card {
+  height: 300px;
+  width: 350px;
+  border-radius: 10px;
+  background-color: rebeccapurple;
+  overflow: hidden;
+  position: relative;
+  transition: all ease 0.3s;
+}
+
+.card img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-position: bottom;
+}
+
+.bottom {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(transparent, black);
+  position: absolute;
+  bottom: -40%;
+  transition: all ease 0.2s;
+  padding: 20px;
+}
+
+.bottom h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.bottom h3 {
+  background-color: white;
+  border-radius: 50%;
+}
+
+.card:hover .bottom {
+  bottom: 0;
+}

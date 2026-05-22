@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+}
+
+#nav {
+  height: 50px;
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+#nav h4 {
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+#center {
+  height: 80%;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  padding: 50px;
+  background-image: url(https://9to5mac.com/wp-content/uploads/sites/6/2025/07/iphone-17-pro-orange-concept.jpg?quality=82&strip=all&w=1600);
+  background-size: cover;
+
+  background-position: center;
+}
+#center h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+#center h5 {
+  color: white;
+  font-size: 28px;
+}
+
+#links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px;
+}
+
+#links button {
+  color: white;
+  padding: 13px 20px;
+  background-color: royalblue;
+  border-radius: 20px;
+  border: none;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+#links button:hover {
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
