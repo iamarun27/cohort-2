@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+main section {
+  height: 100%;
+  flex-grow: 1;
+  background-size: cover;
+  background-position: center;
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+  cursor: pointer;
+}
+main section:hover {
+  flex-grow: 2;
+}
+main section:nth-child(1) {
+  background-image: url(https://i.pinimg.com/1200x/f9/55/4c/f9554ce772fee6c18fba3818edf42cb0.jpg);
+}
+main section:nth-child(2) {
+  background-image: url(https://i.pinimg.com/736x/51/d7/86/51d7866c318cb9dfea9538390e2891a2.jpg);
+}
+main section:nth-child(3) {
+  background-image: url(https://i.pinimg.com/1200x/ab/3f/5e/ab3f5e6eb6b80cb5ae0925259ce62427.jpg);
+}
+main section:nth-child(4) {
+  background-image: url(https://i.pinimg.com/736x/3a/52/2c/3a522c27f27d96a0926b11d7a0ae0cde.jpg);
+}
+main section:nth-child(5) {
+  background-image: url(https://i.pinimg.com/736x/4d/48/1a/4d481a8902b7e308f5fe156cac881f48.jpg);
+}/*# sourceMappingURL=practice.css.map */

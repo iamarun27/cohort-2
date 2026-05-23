@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(157, 32, 179, 0.713);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 70px 1fr 100px;
+  grid-gap: 10px;
+}
+
+.child {
+  background-color: blue;
+  border: 3px solid green;
+}
+
+#child1 {
+  grid-column: 1/4;
+}

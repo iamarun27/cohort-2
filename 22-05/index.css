@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100;
+}
+
+/* #parent{
+  
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+
+.child:nth-child(1){
+  height: 100px;
+  width: 100px;
+  background-color: rgba(190, 199, 25, 0.875);
+  border-top: 5px solid black;
+}
+
+.child:nth-child(2n){
+  height: 100px;
+  width: 100px;
+  background-color: rgb(37, 26, 187);
+  border-top: 5px solid black;
+}
+
+.child:nth-child(3){
+  height: 100px;
+  width: 100px;
+  background-color: rgba(161, 28, 163, 0.806);
+  border-top: 5px solid black;
+}
+
+.child:nth-child(4){
+  height: 100px;
+  width: 100px;
+  background-color: rgba(34, 194, 63, 0.801);
+}
+
+.child:nth-child(5){
+  height: 100px;
+  width: 100px;
+  background-color: rgb(131, 51, 157);
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+} */
+
+/* #parent {
+  height: 100%;
+  width: 100%;
+  background-color: #1e1e1e;
+  display: grid;
+  grid-template-columns: 25% 25% 50%;
+  grid-template-rows: 20% 40% 40%;
+  
+  overflow: hidden;
+}
+
+.card:nth-child(1) {
+  background-color: red;
+}
+
+.card:nth-child(2n) {
+  background-color: tan;
+}
+.card:nth-child(3n) {
+  background-color: rgb(38, 13, 207);
+}
+.card:nth-child(4n) {
+  background-color: rgba(61, 183, 28, 0.539);
+} */
+
+h1 {
+  font-size: 200px;
+  font-weight: 900;
+  text-align: center;
+  background-image: url(https://imgs.search.brave.com/P0fXzNEMXcW5oldf8C4LucLvOm4YAe-kEr3fRtWu_i0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTAuZ2lwaHkuY29t/L21lZGlhL3YxLlky/bGtQVGM1TUdJM05q/RXhZVGN5ZG10aE5U/bGpiV1Y1TTJwdWNI/QndhM2MwYldGdGJU/WmlhSGxwZERsMVp6/bG1PVFJ1WWlabGNE/MTJNVjluYVdaelgz/TmxZWEpqYUNaamRE/MW4veFQ5SWd3OWRj/UW90ZWhrdlBXLzIw/MC5naWY.gif);
+  background-clip: text;
+  background-size: cover;
+  color: transparent;
+  -webkit-text-stroke: 5px white;
+}
