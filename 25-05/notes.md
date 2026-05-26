@@ -14,9 +14,6 @@ operators:
 8. Nullish coalishing operator
 9. optional chaining (?.) -> safe access to nested values obj?.name?.first
 
-
-
-
 variable hoisting in js
 
-
+day 32

@@ -36,3 +36,14 @@
 
 //var b; // it goes to top
 //b = 12;
+
+//day 32
+
+//loops and conditions
+
+//if if-else if-elseif-if
+
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
+
